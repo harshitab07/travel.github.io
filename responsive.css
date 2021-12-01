@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1150px){
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar{
+        height: 440px;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+    }
+    .rightNav {
+        text-align: center;
+    }
+ .burger {
+     display: block;
+ }
+ .h-nav {
+  height: 60px;
+ }
+ .v-class {
+     opacity: 0;
+ }
+ .complete {
+    margin-top: 10%;
+    margin-bottom: 10%;
+ }
+ .section{
+     padding: 30px;
+ }
+ .contact {
+     height: 80vh;
+ }
+ .logo img{
+     width: 40px;
+     height: 45px;
+ }
+}
+
+@media only screen and (max-width: 830px) {
+.complete {
+    padding-top: 60px;
+}
+.section {
+    
+        padding-bottom: 12rem;
+        
+        height: 280px;
+        display: flex;
+        
+        justify-content: space-evenly;
+        max-width: 100%;
+        
+        font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+    }
+    .contact{
+        height: 85vh;
+    }
+    
+}
+
+.paras {
+    text-align: left;
+}
+.firstsection {
+    height:700px;
+}
+
+@media only screen and (max-width: 700px) 
+{
+    .section {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .paras {
+        padding: 40px;
+    }
+    .contact{
+        height: 90vh;
+    }
+    .text-big {
+        font-size: 25px;
+        }
+        .text-small {
+            font-size: 16px;
+        }
+        .form input {
+            align-content: center;
+            width: 90%;
+        }
+}
+
+@media only screen and (max-width: 570px) {
+    .box-main{
+        margin-left: 50px;
+    }
+    .form input {
+        margin-left: 20px;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box-main {
+        flex-direction: column-reverse;
+    }
+   .firstHalf {
+       margin-top: 20px;
+       margin-left: 60px;
+       text-align: center;
+       width: 100%;
+   }
+   .secondHalf {
+       align-content: center;
+   }
+   .upbtn {
+       display: flex;
+       flex-direction: row;
+   }
+    
+.btn-submit {
+    margin-left: 11rem;
+}
+}
+
+
+@media only screen and (max-width: 426px) {
+   
+    
+    .btn-submit {
+        margin-left: 11rem;
+    }
+}
